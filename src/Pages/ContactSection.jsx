@@ -7,16 +7,16 @@ const ContactSection = () => {
   return (
     <Container>
       <h1 className='text-center'>Contact</h1>
-      <Row  className="mt-5" >
-        <Col md={4} sm={12}  className="bg-info mainsection-height"  >
-            Contact
+      <Row  className="" >
+        <Col md={4} sm={12}    >
+        <div className="bg-info mainsection-height mb-2">Contact</div>
         </Col>
-        <Col md={4} sm={12}  className="bg-info mainsection-height" >
-        Contact
+        <Col md={4} sm={12}   >
+        <div className="bg-info mainsection-height mb-2">Contact</div>
         </Col>
               
-        <Col md={4} sm={12}  className="bg-info mainsection-height"  >
-        Contact
+        <Col md={4} sm={12}   >
+        <div className="bg-info mainsection-height mb-2">Contact</div>
         </Col>    
     </Row>
    

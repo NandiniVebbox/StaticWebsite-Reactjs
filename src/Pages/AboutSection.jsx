@@ -9,13 +9,14 @@ export const  AboutSection = () => {
     <Container>
     <h1 className='text-center my-3'>About</h1>
     <Row  className="" >
-        <Col md={6} xs={12}  className=" ">
-          <div className="bg-info mainsection-height">main content
+        <Col md={6} xs={12} >
+          <div className="bg-info mainsection-height mb-2">main content
           </div>
         </Col>
         
-        <Col md={6} xs={12}  className="bg-info mainsection-height">
-            side
+        <Col md={6} xs={12}  >
+        <div className="bg-info mainsection-height mb-2">main content
+          </div>
         </Col>
     </Row>
     </Container>

@@ -8,20 +8,20 @@ export const ProductSection = () => {
     <Container>
       <h1 className='text-center my-3'>Products</h1>
     <Row  className="" >
-        <Col md={6} sm={12}  className="bg-info mainsection-height"  >
-            product content
+        <Col md={6} sm={12}  >
+            <div  className="bg-info mainsection-height mb-2" >product content</div>
         </Col>
-        <Col md={6} sm={12}  className="bg-info mainsection-height" >
-        product content
+        <Col md={6} sm={12}  >
+        <div  className="bg-info mainsection-height mb-2" >product content</div>
         </Col>
                   
     </Row>
     <Row  className="" >
-        <Col md={6} sm={12}  className="bg-info mainsection-height">
-        product content
+        <Col md={6} sm={12}  >
+        <div  className="bg-info mainsection-height mb-2" >product content</div>
         </Col>
-        <Col md={6} sm={12}  className="bg-info mainsection-height">
-        product content
+        <Col md={6} sm={12}  >
+         <div  className="bg-info mainsection-height mb-2" >product content</div>
         </Col>
          
     </Row>

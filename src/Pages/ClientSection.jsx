@@ -8,24 +8,33 @@ export const  ClientSection = () => {
     <>
     <Container>
     <Row className='mt-5'>
-    <Col md={6} xs={12} className="bg-info" >
-        Side D
+    <Col md={6} xs={12}  >
+          <div className="bg-info mainsection-height mb-2">Side D
+          </div>
     </Col>
-    <Col md={6} xs={12} className="bg-info" >
+    <Col md={6} xs={12}  >
         <Row>
-            <Col md={6} xs={12} className="bg-info" >
-                Side A
+            <Col md={6} xs={12}  >
+                
+                <div className="bg-info clientsection-height mb-2">Side A
+          </div>
             </Col>
-            <Col md={6} xs={12} className="bg-info" >
-                Side B
+            <Col md={6} xs={12}  >
+                
+                <div className="bg-info clientsection-height mb-2">Side B
+          </div>
             </Col>
         </Row>
         <Row>
-            <Col md={6} xs={12} className="bg-info" >
-                Side A
+            <Col md={6} xs={12}  >
+                
+                <div className="bg-info clientsection-height mb-2">Side A
+          </div>
             </Col>
-            <Col md={6} xs={12} className="bg-info" >
-                Side B
+            <Col md={6} xs={12}  >
+                
+                <div className="bg-info clientsection-height mb-2">Side B
+          </div>
             </Col>
         </Row>
     </Col>

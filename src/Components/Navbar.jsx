@@ -8,27 +8,27 @@ export const Navbar = () => {
   return (
     <>
     <Container>
-      <Row  className="mt-2 navbar" >
-        <Col xs={6} className="bg-primary">
-            Logo
+      <Row  className="my-3 " >
+        <Col xs={6} >
+            <div className="bg-info">Logo</div>
         </Col>       
       
         <Col xs={6}>
-          <Row>
+          <Row >
           <Col xs={2}>
-          Home
+           <div className="bg-info">Home</div>
           </Col>
           <Col xs={2}>
-          Services
+           <div className="bg-info">Services</div>
           </Col>
           <Col xs={2}>
-          Products
+           <div  className="bg-info">Products</div>
           </Col>
           <Col xs={2}>
-          About
+           <div className="bg-info">About</div>
           </Col>
           <Col xs={4}>
-          Get Started
+          <div className="bg-info"> Get Started</div>
           </Col>
           </Row>
         </Col>

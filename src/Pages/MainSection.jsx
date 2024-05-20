@@ -7,13 +7,13 @@ export const MainSection = () => {
   return (
     <>
       <Container>
-        <Row className="mt-5">
+        <Row >
           <Col md={6} xs={12} >
-            <div className="bg-info mainsection-height">main content</div>
+            <div className="bg-info mainsection-height mb-2">main content</div>
           </Col>
 
-          <Col md={6} xs={12} className="bg-info mainsection-height">
-            <div>side</div>
+          <Col md={6} xs={12} >
+            <div className="bg-info mainsection-height mb-2">side</div>
           </Col>
         </Row>
       </Container>

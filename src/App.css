@@ -16,3 +16,12 @@ h1::before,h1::after{
 .mainsection-height{
     min-height: 300px;
 }
+.clientsection-height{
+    min-height: 145px;
+}
+.navbar{
+    min-width:50px;
+    max-height: 25px;
+
+
+}
