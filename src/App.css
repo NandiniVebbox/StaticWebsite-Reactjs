@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:wght@400..700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:wght@400..700&display=swap'); */
 *{
-    /* margin:0;
-    padding:0;     */
-    font-family: "Radio Canada Big", sans-serif;    
+    /* margin:0 !important;
+    padding:0 !important;     */
+ 
+    /* font-family-: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
 }
 h1::before,h1::after{
     content:'';
@@ -14,7 +15,8 @@ h1::before,h1::after{
 
 }
 .mainsection-height{
-    min-height: 300px;
+    min-height: auto;
+    /* min-height: 300px; */
 }
 .clientsection-height{
     min-height: 145px;
@@ -22,6 +24,42 @@ h1::before,h1::after{
 .navbar{
     min-width:50px;
     max-height: 25px;
+}
+.custom-img-fluid{
+    max-width: 80%;
+    height: auto;
+    
+}
+.service-svg{
+    background-color: #3498db;
+    border-radius: 50px;
+    border-width:10px;
+    border-style: solid;
+    border-color: #3498db;
+ 
 
 
+    
+}
+.service-div{    
+    border-radius: 20px;
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
+
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    
+    
+}
+
+
+.product-div{
+    border-radius: 8px;
+    max-width: 70%;
+    background:rgba(255, 255, 255, 0.9);
 }
