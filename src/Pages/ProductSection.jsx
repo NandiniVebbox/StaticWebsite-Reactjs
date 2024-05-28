@@ -38,7 +38,7 @@ export const ProductSection = () => {
   ];
   const item = {};
   return (
-    <Container className="my-5">
+    <Container className="my-5" id="products">
       <h1 className="text-center my-3">PRODUCTS</h1>
       <Row className="gy-3">
         {content.map((item, index) => (

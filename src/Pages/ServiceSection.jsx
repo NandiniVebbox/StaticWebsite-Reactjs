@@ -41,7 +41,7 @@ const ServiceSection = () => {
 
   return (
     <>
-      <Container className="my-5">
+      <Container className="my-5" id="services">
         <h1 className="text-center my-3">SERVICES</h1>
         <Row className="gy-3">
           {content.map((item, index) => (

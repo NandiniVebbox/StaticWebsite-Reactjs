@@ -6,8 +6,8 @@ import Container from 'react-bootstrap/Container'
 export const  AboutSection = () => {
   return (
     <>
-    <Container>
-    <h1 className='text-center my-3'>About</h1>
+    <Container id="about">
+    <h1 className='text-center my-3'>ABOUT US</h1>
     <Row  className="" >
         <Col md={6} xs={12} >
           <div className=" mainsection-height mb-2"><p>We are consummate custom software Development company delivering splendid business IT Solutions and related services to customers across the globe. Our development services are led by our dedicated and passionate team to provide best industry practices combined with technology expertise and business domain knowledge to drive digital transformation.</p>
